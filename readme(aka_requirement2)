@@ -1,0 +1,7 @@
+For this project I have made a small fight generator for the game DnD. To use it the player must enter then number of players and how hard they want the fight to be and click submit. They will then get a random print out of monsters with their respective stats. 
+
+Features :  out put monster data.
+
+For this to work first the html need to have input field for both number of players and difficulty. 
+
+In JavaScript an array of object for monster data. Then need a function to take the data from the input files and set them to variables. The difficulty then must be converted into a multiplier. Number of players need to be used with a for loop to pull a random selection of monsters. This data then need to be posted back to the html in a div. This div needs to be created and have the text injected into it. 

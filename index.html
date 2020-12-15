@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <header>
+      <h1>DnD battle creator! (though only 4 monsters at the moment)</h1>
+    </header>
+    <main>
+      <section class="setup">
+        <p>
+          This works by entering a hand full of things. Enter the number of
+          players, and how hard you want the encounter to be. You will get one
+          enemy per player, and difficulty adds a multiplayer to some tributes
+          of the monsters.
+        </p>
+        <!-- input areas -->
+        <label for="players">Number of players : </label
+        ><input id="players-input" type="text" />
+        <label for="dif">Difficulty</label>
+        <select name="dif" id="difficulty">
+          <option value="easy">easy</option>
+          <option value="medium">medium</option>
+          <option value="hard">hard</option>
+        </select>
+        <button id="submit">submit</button>
+      </section>
+      <!-- out goes bellow, will create a div for each monster -->
+      <section class="output" id="output"></section>
+    </main>
+    <footer>
+      &copy;Chris Vickery 2020 monster data &copy; Wizards of the Coast
+    </footer>
+    <script src="js.js"></script>
+  </body>
+</html>
